@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Developer Portfolio, some web projects with HTML, CSS and JavaScript">
+    <meta name="keywords" content="Portfolio, Web, Developer, Programing, Prototyping, UI, UX, HTML, CSS, JavaScript, PHP">
+
     <title>Wesley Bertipaglia | Portifolio</title>
+    
     <link rel="stylesheet" href="src/style/style.css">
     <link rel="shortcut icon" href="src/img/favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="src/script/main.js" async></script>
 </head>
 <body>
     <nav>
@@ -67,26 +72,35 @@
         <div class="grid-container">
             <span class="span-projects">
                 <a href="#" target="_blank">
-                    <img src="src/img/Latest works/Desktop-1.jpg" alt="Work Screenshot">
-                    <strong>A-bank</strong>
+                    <img src="src/img/Latest works/Desktop-1.svg" alt="Work Screenshot">
+                    <strong>buzz.</strong>
                 </a>
-                <p>UI/UX & site</p>
+                <p>
+                    <small>UI/UX & site</small><br>
+                    A website for those who want to leverage their business
+                 </p>
             </span>
     
             <span class="span-projects">
                 <a href="#" target="_blank">
-                    <img src="src/img/Latest works/Desktop-2.jpg" alt="Work Screenshot">
-                    <strong>Project title</strong>
+                    <img src="src/img/Latest works/Desktop-2.svg" alt="Work Screenshot">
+                    <strong>social up</strong>
                 </a>
-                <p>UI/UX & site</p>
+                <p>
+                    <small>UI/UX & site</small><br>
+                    End-to-end social media management
+                 </p>
             </span>
     
             <span class="span-projects">
-                <a href="https://wesleybertipaglia.github.io/idcard/" target="_blank">
-                    <img src="src/img/Latest works/Desktop-3.jpg" alt="Work Screenshot">
-                    <strong>Social Up</strong>
+                <a href="#" target="_blank">
+                    <img src="src/img/Latest works/Desktop-3.svg" alt="Work Screenshot">
+                    <strong>Just Music</strong>
                 </a>
-                <p>UI/UX & site</p>
+                <p>
+                   <small>UI/UX & site</small><br>
+                    A platform to listen and enjoy music
+                </p>
             </span>
         </div>
     </section>
@@ -141,23 +155,5 @@
         <hr>
         <p id="footer-by-wesley">Design & Development by Wesley Bertipaglia @2022</p>
     </footer>
-
-    <script>
-        var mybutton = document.getElementById("button-to-top");
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-        </script>
 </body>
 </html>
