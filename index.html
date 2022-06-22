@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley Bertipaglia | Portifolio</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="shortcut icon" href="src/img/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <a href="index.html" id="nav-home"><strong>Wesley Bertipaglia</strong></a>
+
+        <ul>
+            <li><a href="#section-latest-works">Work</a></li>
+            <li><a href="#section-contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <main>
+            <p id="header-web-developer">web developer</p>
+            <h1 id="header-name">Wesley Bertipaglia</h1>
+            <p id="header-about">
+                Hi, I'm Wesley a web developer still in training. I am focused on learning and continuous improvement, always looking for new solutions and new technologies.
+            </p>
+            <span class="get-in-touch">
+                <a href="mailto:wesleybertipaglia@gmail.com&subject=Let's%20work%20together">Get in touch</a>
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </span>
+        </main>
+    </header>
+
+    <section id="section-development-stacks">
+        <div class="grid-container">
+            <span class="span-development-stacks">
+                <strong>UI/UX research</strong>
+                <p>
+                    Research, testing, improvement, and implementation of practical solutions that will serve as business benefits. 
+                </p>
+            </span>
+    
+            <span class="span-development-stacks">
+                <strong>Front-end development</strong>
+                <p>
+                    Development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript.
+                </p>
+            </span>
+    
+            <span class="span-development-stacks">
+                <strong>Back-end development</strong>
+                <p>
+                    Development of applications that integrate the database and servers to the user interface, using PHP and SQL.
+                </p>
+            </span>
+        </div>
+    </section>
+
+    <section id="section-latest-works">
+        <h2>Latest works</h2>
+
+        <div class="grid-container">
+            <span class="span-projects">
+                <a href="#" target="_blank">
+                    <img src="src/img/Latest works/Desktop-1.jpg" alt="Work Screenshot">
+                    <strong>A-bank</strong>
+                </a>
+                <p>UI/UX & site</p>
+            </span>
+    
+            <span class="span-projects">
+                <a href="#" target="_blank">
+                    <img src="src/img/Latest works/Desktop-2.jpg" alt="Work Screenshot">
+                    <strong>Project title</strong>
+                </a>
+                <p>UI/UX & site</p>
+            </span>
+    
+            <span class="span-projects">
+                <a href="https://wesleybertipaglia.github.io/idcard/" target="_blank">
+                    <img src="src/img/Latest works/Desktop-3.jpg" alt="Work Screenshot">
+                    <strong>Social Up</strong>
+                </a>
+                <p>UI/UX & site</p>
+            </span>
+        </div>
+    </section>
+
+    <section id="section-contact">
+        <span id="span-lets-work-together">
+            <h2>Let's work together</h2>
+            <p>
+                Together we can build amazing things.
+            </p>
+
+            <ul id="span-social-icons">
+                <li><a href="https://www.instagram.com/wesleyberti_" target="_blank">
+                    <img src="src/img/Negative Icons/Instagram - Negative.svg" alt="instagram">
+                </a></li>
+                <li><a href="https://dribbble.com/bertipaglia" target="_blank">
+                    <img src="src/img/Negative Icons/Dribbble - Negative.svg" alt="dribbble">
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/wesley-bertipaglia-095768148/" target="_blank">
+                    <img src="src/img/Negative Icons/LinkedIn - Negative.svg" alt="linkedin">
+                </a></li>
+                <li><a href="https://github.com/wesleybertipaglia" target="_blank">
+                    <img src="src/img/Negative Icons/Github - Negative.svg" alt="github">
+                </a></li>
+            </ul>
+        </span>
+        
+        <form action="mailto:wesleybertipaglia@gmail.com&subject=Let's%20work%20together" method="post" enctype="text/plain">
+            <input type="text" placeholder="Name" name="name"> <br>
+            <input type="email" placeholder="Email" name="email"> <br>
+            <textarea cols="30" rows="10" placeholder="Your message here" name="message"></textarea> <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <button onclick="topFunction()" id="button-to-top" title="Go to top">
+        <span class="material-symbols-outlined">expand_less</span>
+    </button>
+
+    <footer>
+        <div>
+            <span>
+                <h1>Wesley Bertipaglia</h1>
+                <p>Web developer</p>
+            </span>
+    
+            <span class="get-in-touch" id="get-in-touch-footer">
+                <a href="mailto:wesleybertipaglia@gmail.com&subject=Let's%20work%20together">Get in touch</a>
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </span>
+        </div>
+        <hr>
+        <p id="footer-by-wesley">Design & Development by Wesley Bertipaglia @2022</p>
+    </footer>
+
+    <script>
+        var mybutton = document.getElementById("button-to-top");
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
