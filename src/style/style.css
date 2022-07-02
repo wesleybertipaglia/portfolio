@@ -6,7 +6,7 @@
     --font-color-negative: #262627;
     --font-weight-light: 300;
     --section-margin: 4rem 2rem;
-    --shared-section-width: 30%;
+    --shared-section-width: 33%;
 }
 * {
     /* style reset */
@@ -103,10 +103,14 @@ section {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
     margin-top: 1rem;
+}
+
+.span-development-stacks, #section-latest-works span {
+    width: var(--shared-section-width);
 }
 
 .span-development-stacks p {
