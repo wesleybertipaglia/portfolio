@@ -192,13 +192,15 @@ footer div span {
 footer #footer-by-wesley {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     margin: 1rem;
-    color: var(--middle-gray);
+    opacity: 0.25;
+    transition: transform .3s ease;
 }
 
-footer #footer-by-wesley a {
-    color: var(--font-color-default);
+footer #footer-by-wesley a:hover {
+    opacity: 1;
+    background: hsl(200 100% 80%);
 }
 
 #button-to-top {
