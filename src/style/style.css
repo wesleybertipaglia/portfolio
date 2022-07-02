@@ -201,12 +201,11 @@ footer p {
 }
 
 footer a {
-    opacity: 0.25;
     transition: .3s linear;
 }
 
 footer a:hover {
-    opacity: 1;
+    opacity: 2;
     background: #1d6eb5; 
     color: var(--font-color-default);
     text-decoration: none;
