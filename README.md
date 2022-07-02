@@ -1,7 +1,7 @@
 # portfolio
 Hello 👋
 Welcome to my new personal portfolio. Here you can find my last work and contact me. <br><br>
-<a href='https://wesleybertipaglia.github.io/portfolio/' target='blank'>Click here</a> to access my new personal portfolio. <br><br>
+<a href='https://wesleybertipaglia.github.io/portfolio/' target='_blank'>Click here</a> to access my new personal portfolio. <br><br>
 
 ### Checkout my social media
 <span>
