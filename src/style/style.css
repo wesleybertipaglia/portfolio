@@ -195,12 +195,15 @@ footer #footer-by-wesley {
     gap: 0.5rem;
     margin: 1rem;
     opacity: 0.25;
+}
+
+footer #footer-by-wesley a {
     transition: .3s linear;
 }
 
 footer #footer-by-wesley a:hover {
     opacity: 1;
-    background: hsl(200 100% 80%);
+    background: #34c0eb; 
     color: var(--font-color-default);
     text-decoration: none;
 }
