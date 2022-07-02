@@ -194,15 +194,19 @@ footer #footer-by-wesley {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+}
+
+footer #footer-by-wesley p {
     opacity: 0.25;
 }
 
 footer #footer-by-wesley a {
+    opacity: 0.25;
     transition: .3s linear;
 }
 
 footer #footer-by-wesley a:hover {
-    opacity: 2;
+    opacity: 1;
     background: #1d6eb5; 
     color: var(--font-color-default);
     text-decoration: none;
