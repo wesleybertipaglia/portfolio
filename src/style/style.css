@@ -18,6 +18,10 @@
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     list-style: none;
+    
+    /* Motion */
+    transition: 0.3s;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -32,6 +36,8 @@ a:hover {
 body {
     background-color: var(--dark-gray);
     color: var(--font-color-default);
+    max-width: 1600px;
+    margin: auto;
 }
 
 nav {
