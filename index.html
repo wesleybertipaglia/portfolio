@@ -4,160 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wesley Bertipaglia | Portifolio</title>
+
+    <!-- seo -->
     <meta name="description" content="Web Developer Portfolio, some web projects with HTML, CSS and JavaScript">
     <meta name="keywords" content="Portfolio, Web, Developer, Programing, Prototyping, UI, UX, HTML, CSS, JavaScript, PHP">
-    <meta name="google-site-verification" content="8EuVahNz39PhpDr50uKWFNMie8Q4JFJB0MRrv3jIMTk" />
-
-    <title>Wesley Bertipaglia | Portifolio</title>
     
+    <!-- favicon -->
+    <link rel="shortcut icon" href="src/assets/img/Photo.png" type="image/x-icon">
+
+    <!-- style -->
     <link rel="stylesheet" href="src/style/style.css">
-    <link rel="shortcut icon" href="src/img/favicon.svg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="src/script/main.js" async></script>
+    <link rel="stylesheet" href="src/style/class.css">
+
+    <!-- script -->
+    <script src="src/script/script.js" async></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html" id="nav-home"><strong>Wesley Bertipaglia</strong></a>
+    <div id="new" class="bkg-pri divClose">
+        <div class="sect-content">
+            <div class="row g-24 py-14 w-100">
+                <div class="col w-100 jc-ce">
+                    <p>NEW portfolio website</p>
+                </div>
+                <div class="col jc-ce ta-rt">
+                    <span class="cursor-pointer btnClose" onclick="closeDiv(0)">x</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <ul>
-            <li><a href="#section-latest-works">Work</a></li>
-            <li><a href="#section-contact">Contact</a></li>
-        </ul>
+    <nav class="pos-sticky bkg-white">
+        <div class="sect-content">
+            <div class="row g-24 ai-ce jc-sb py-16">
+                <div class="col">
+                    <a href="index.html" class="h-3">
+                        <img src="src/assets/img/Photo.png" alt="Profile pic" class="h-3 br-50">
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="row g-16">
+                        <lli><a href="#about">About</a></lli>
+                        <lli><a href="#work">Work</a></lli>
+                        <lli><a href="#contact">Contact</a></lli>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <header>
-        <main>
-            <p id="header-web-developer">web developer</p>
-            <h1 id="header-name">Wesley Bertipaglia</h1>
-            <p id="header-about">
-                Hi, I'm Wesley a web developer still in training. I am focused on learning and continuous improvement, always looking for new solutions and new technologies.
-            </p>
-            <span class="get-in-touch">
-                <a href="http://linktr.ee/wesleybertipaglia">Get in touch</a>
-                <span class="material-symbols-outlined">arrow_forward</span>
-            </span>
-        </main>
+        <section id="hero">
+            <div class="sect-content">
+                <div class="row g-48 py-48 jc-sb ai-ce fw-nowrap onres-fw-wrap">
+                    <div class="col w-100">
+                        <h1>Hi, I'm Wesley</h1>
+                        <p>
+                            I'm a front-end developer with a passion for creating websites that drive my clients' businesses and positively impact their brands.
+                        </p>
+                    </div>
+                    <div class="col w-100">
+                        <figure class="d-flex jc-fe onres-jc-ce w-100">
+                            <img src="src/assets/img/Photo.png" alt="Profile" class="w-default onres-w-100 ar-1-1 br-8">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="techs">
+            <div class="sect-content pb-24">
+                <div class="row g-24 jc-sb ai-ce pb-16 w-100 of-auto">
+                    <img src="src/assets/icons/html.svg" alt="HTML" draggable="false" class="h-3 w-auto ar-1-1 obj-fit-contain usr-slct-none">
+                    <img src="src/assets/icons/css.svg" alt="CSS" draggable="false" class="h-3 w-auto ar-1-1 obj-fit-contain usr-slct-none">
+                    <img src="src/assets/icons/sass.svg" alt="Sass" draggable="false" class="h-3 w-auto ar-1-1 obj-fit-contain usr-slct-none">
+                    <img src="src/assets/icons/bootstrap.svg" alt="Bootstrap" draggable="false" class="h-3 w-auto ar-1-1 obj-fit-contain usr-slct-none">
+                    <img src="src/assets/icons/tailwind.svg" alt="Tailwind" draggable="false" class="h-3 w-auto ar-1-1 obj-fit-contain usr-slct-none">
+                    <img src="src/assets/icons/javascript.svg" alt="JavaScript" draggable="false" class="h-3 w-auto ar-1-1 obj-fit-contain usr-slct-none">
+                </div>
+            </div>
+        </section>
     </header>
 
-    <section id="section-development-stacks">
-        <div class="grid-container">
-            <span class="span-development-stacks">
-                <strong>UI/UX research</strong>
-                <p>
-                    Research, testing, improvement, and implementation of practical solutions that will serve as business benefits. 
-                </p>
-            </span>
-    
-            <span class="span-development-stacks">
-                <strong>Front-end development</strong>
-                <p>
-                    Development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript.
-                </p>
-            </span>
-    
-            <span class="span-development-stacks">
-                <strong>Back-end development</strong>
-                <p>
-                    Development of applications that integrate the database and servers to the user interface, using PHP and SQL.
-                </p>
-            </span>
-        </div>
-    </section>
+    <main class="bkg-dark">
+        <section id="about">
+            <div class="sect-content">
+                <div class="row g-default py-48 onres-fw-wrap">
+                    <div class="col w-100 g-24">
+                        <h3>
+                            I work to understand the needs and wants of my client's target audience and utilize my coding and design skills to create engaging and effective websites.
+                        </h3>
+                    </div>
+                    <div class="col w-default onres-w-100">
+                        <p class="fw-300">I am committed to creating websites that help leverage business and generate a positive impact on the brand.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="section-latest-works">
-        <h2>Latest works</h2>
+        <section id="work">
+            <div class="sect-content py-48">
+                <div class="sect-header">
+                    <h3>Projects</h3>
+                </div>
+                <div class="row g-default onres-fw-wrap">
+                    <div class="project w-100 col g-16">
+                        <figure class="d-block w-100 bkg-light">
+                            <img src="src/assets/img/project - 1.jpg" alt="Project Image" class="d-block w-100 obj-fit-contain">
+                        </figure>
+                        <span class="stripe"></span>
+                        <div class="row jc-sb">
+                            <p>Project Title</p>
+                            <p>2023</p>
+                        </div>
+                    </div>
 
-        <div class="grid-container">
-            <span class="span-projects">
-                <a href="#" target="_blank">
-                    <img src="src/img/Latest works/Desktop-1.svg" alt="Work Screenshot">
-                    <strong>buzz.</strong>
-                </a>
-                <p>
-                    <small>UI/UX & site</small><br>
-                    A website for those who want to leverage their business
-                 </p>
-            </span>
+                    <div class="project w-100 col g-16">
+                        <figure class="d-block w-100 bkg-light">
+                            <img src="src/assets/img/project - 2.jpg" alt="Project Image" class="d-block w-100 obj-fit-contain">
+                        </figure>
+                        <span class="stripe"></span>
+                        <div class="row jc-sb">
+                            <p>Project Title</p>
+                            <p>2023</p>
+                        </div>
+                    </div>
+
+                    <div class="project w-100 col g-16">
+                        <figure class="d-block w-100 bkg-light">
+                            <img src="src/assets/img/project - 3.jpg" alt="Project Image" class="d-block w-100 obj-fit-contain">
+                        </figure>
+                        <span class="stripe"></span>
+                        <div class="row jc-sb">
+                            <p>Project Title</p>
+                            <p>2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="contact" class="sect-content">
+                <div class="row jc-sb g-default onres-fw-wrap py-48">
+                    <div class="col w-100">
+                        <div class="sect-header">
+                            <h3>Let's work together</h3>
+                        </div>
     
-            <span class="span-projects">
-                <a href="#" target="_blank">
-                    <img src="src/img/Latest works/Desktop-2.svg" alt="Work Screenshot">
-                    <strong>social up</strong>
-                </a>
-                <p>
-                    <small>UI/UX & site</small><br>
-                    End-to-end social media management
-                 </p>
-            </span>
+                        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdJDDyPhIItcgN5EPePOf_P58sODqHtOsPiTuMCqfVkg4bTrw/formResponse" target="formResponse" method="post" class="col w-default onres-w-100 g-24">
+                            <div class="input-group col g-8">
+                                <label for="name">Name</label>
+                                <input type="text" name="entry.38614103" placeholder="Type your name" required class="b-unset bkg-transparent p-8">
+                                <div class="stripe"></div>
+                            </div>
     
-            <span class="span-projects">
-                <a href="#" target="_blank">
-                    <img src="src/img/Latest works/Desktop-3.svg" alt="Work Screenshot">
-                    <strong>Just Music</strong>
-                </a>
-                <p>
-                   <small>UI/UX & site</small><br>
-                    A platform to listen and enjoy music
-                </p>
-            </span>
-        </div>
-    </section>
-
-    <section id="section-contact">
-        <span id="span-lets-work-together">
-            <h2>Let's work together</h2>
-            <p>
-                Together we can build amazing things.
-            </p>
-
-            <ul id="span-social-icons">
-                <li><a href="https://www.instagram.com/wesleyberti_" target="_blank">
-                    <img src="src/img/Negative Icons/Instagram - Negative.svg" alt="instagram">
-                </a></li>
-                <li><a href="https://dribbble.com/bertipaglia" target="_blank">
-                    <img src="src/img/Negative Icons/Dribbble - Negative.svg" alt="dribbble">
-                </a></li>
-                <li><a href="https://www.linkedin.com/in/wesley-bertipaglia-095768148/" target="_blank">
-                    <img src="src/img/Negative Icons/LinkedIn - Negative.svg" alt="linkedin">
-                </a></li>
-                <li><a href="https://github.com/wesleybertipaglia" target="_blank">
-                    <img src="src/img/Negative Icons/Github - Negative.svg" alt="github">
-                </a></li>
-            </ul>
-        </span>
+                            <div class="input-group col g-8">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="entry.1809934675" placeholder="Type your e-mail" required class="b-unset bkg-transparent p-8">
+                                <div class="stripe"></div>
+                            </div>
+    
+                            <div class="input-group col g-8">
+                                <label for="message">Message</label>
+                                <textarea name="entry.968624771" rows="8" placeholder="Type your message" required class="b-unset bkg-transparent p-8"></textarea>
+                                <div class="stripe"></div>
+                            </div>
+                            <button type="submit" class="btn-pri">Send it</button>
+                        </form>
+    
+                        <iframe name="formResponse" class="d-none"></iframe>
+                    </div>
+                    <div class="col w-100 g-default ai-fe">
+                        <div class="col w-fc onres-w-100 g-default">
+                            <div class="col g-16">
+                                <h6>CONTACT DETAILS</h6>
+                                <a href="mailto:weseybertipaglia@gmail.com" target="_blank"><small>weseybertipaglia@gmail.com</small></a>
+                                <a href="http://linktr.ee/wesleybertipaglia" target="_blank"><small>Get in touch</small></a>
+                            </div>
         
-        <form action="mail.php" method="post" enctype="text/plain">
-            <input type="text" placeholder="Name" name="name"> <br>
-            <input type="email" placeholder="Email" name="email"> <br>
-            <textarea cols="30" rows="10" placeholder="Your message here" name="message"></textarea> <br>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+                            <div class="col g-16">
+                                <h6>SOCIAL MEDIA</h6>
+                                <a href="https://www.instagram.com/wesleyberti_" target="_blank"><small>Instagram</small></a>
+                                <a href="https://dribbble.com/wesleybertipaglia" target="_blank"><small>Dribbble</small></a>
+                                <a href="https://github.com/wesleybertipaglia" target="_blank"><small>GitHub</small></a>
+                                <a href="https://www.linkedin.com/in/wesley-bertipaglia-095768148/" target="_blank"><small>Linkedin</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <button onclick="topFunction()" id="button-to-top" title="Go to top">
-        <span class="material-symbols-outlined">expand_less</span>
-    </button>
-
-    <footer>
-        <div>
-            <span>
-                <h1>Wesley Bertipaglia</h1>
-                <p>Web developer</p>
-            </span>
-    
-            <span class="get-in-touch" id="get-in-touch-footer">
-                <a href="http://linktr.ee/wesleybertipaglia">Get in touch</a>
-                <span class="material-symbols-outlined">arrow_forward</span>
-            </span>
+    <footer class="bkg-dark">
+        <div class="sect-content">
+            <div class="stripe"></div>
+            <div class="row w-100 jc-sb ai-ce py-32 color-dark-gray">
+                <div class="col">
+                    <small>© 2023 Wesley All rights reserved.</small>
+                </div>
+                <div class="row g-16">
+                    <a href="http://linktr.ee/wesleybertipaglia" target="_blank">
+                        <small>Get in touch</small> 
+                        <span>↗</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <hr>
-        <span id="footer-by-wesley">
-            <p>©2022 Design & Development by</p>
-            <a href="http://linktr.ee/wesleybertipaglia" target="_blank">Wesley Bertipaglia</a>
-        </span>
     </footer>
 </body>
 </html>
