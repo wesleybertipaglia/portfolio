@@ -1,6 +1,9 @@
 /* position */
 .pos-sticky {position: sticky; top: 0;}
 
+/* z-index */
+.z-1 {z-index: 1;}
+
 /* display */
 .d-initial {display: initial;}
 .d-inherit {display: inherit;}
@@ -317,6 +320,12 @@
 .fw-700 {font-weight: 700;}
 .fw-800 {font-weight: 800;}
 
+.color-blue {color: #3162dd;}
+.color-green {color: #30d974;}
+.color-purple {color: #7430d9;}
+.color-light-purple {color: #dcd8f8;}
+.color-yellow-green {color: #b1f3a0;}
+
 .td-initial {text-decoration: initial;}
 .td-inherit {text-decoration: inherit;}
 .td-unset {text-decoration: unset;}
@@ -397,8 +406,8 @@
 .gray-effect {filter: grayscale(100%);}
 .gray-effect:hover {filter: grayscale(0%);}
 
-.trans-scale-1, .onhover-trans-scale-1:hover {transform: scale(1);}
-.trans-scale-1-1, .onhover-trans-scale-1-1:hover {transform: scale(1.1);}
+.trans-scale-1, .onhover-trans-scale-1:hover {transform: scale(1); }
+.trans-scale-1-1, .onhover-trans-scale-1-1:hover {transform: scale(1.1); transition: all 0.3s;}
 
 /* animation */
 .to-left:hover {

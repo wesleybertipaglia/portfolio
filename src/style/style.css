@@ -75,6 +75,7 @@ main section {
 .bkg-pri {background-color: var(--primary); color: var(--white);}
 .bkg-transparent {background-color: transparent;}
 
+.color-primary {color: var(--primary);}
 .color-white {color: var(--white);}
 .color-accent-white {color: var(--accent-white);}
 .color-black {color: var(--black);}
