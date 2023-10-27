@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function Container() {
+export default function Container({ children, classMapper }) {
+  const defaultClasses = "container mx-auto";
+  const classMapper = classMapper ? " " + classMapper : "";
+
   return (
-    <div>Container</div>
-  )
+    <div className={defaultClasses + classMapper}>
+      {children}
+    </div>
+  );
 }
