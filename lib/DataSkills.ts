@@ -1,0 +1,17 @@
+export const Skills = [
+    'HTML',
+    'CSS',
+    'Saas',
+    'Bootstrap',
+    'Tailwind',
+    'Git',
+    'PHP',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Next.js',
+    'Node.js',
+    'Express',
+    'MySql',
+    'PostgreSQL',
+] as const;
